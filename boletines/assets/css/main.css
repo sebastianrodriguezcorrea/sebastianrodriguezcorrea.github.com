@@ -1,0 +1,60 @@
+/*
+Pumpkin: FA7921
+Yellow Orange Color Wheel: FE9920
+Indigo Dye: 0C4767
+Spanish Green: 018E42
+Black: 000000
+Black Green: 0e7e26
+*/
+
+/* En este espacio va un comentario en CSS */
+
+html{
+    font-family: 'Arimo', sans-serif;
+}
+
+a{
+    text-decoration:none;
+    color:#0e7e26;
+}
+
+.title{
+    text-transform:uppercase;
+}
+
+.container{
+    background:#018E42; /* Respaldo */
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.content{
+    max-width:960px;
+    max-height:500px;
+    width:100%;
+    height:100%;
+    background-color:white;
+}
+
+.paragraph{
+   line-height:1.8em;
+   font-weight:300;
+}
+
+.red{
+    height: 200px;
+    width: 100px;
+    background-color: red;
+}
+
+#boton-pago{
+    background-color: yellow;
+}
+
+td{
+    border:solid 1px;
+}
